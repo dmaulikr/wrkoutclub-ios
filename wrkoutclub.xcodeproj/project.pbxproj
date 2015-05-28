@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30D9D3784D5DD05A000CD5DB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA4558C2A87F38601F8B28 /* libPods.a */; };
+		39179E351B13F2CF0041B700 /* ExerciseBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39179E341B13F2CF0041B700 /* ExerciseBase.m */; };
+		39179E381B13F2E60041B700 /* Wrkout.m in Sources */ = {isa = PBXBuildFile; fileRef = 39179E371B13F2E60041B700 /* Wrkout.m */; };
+		39179E3B1B13F3500041B700 /* ExerciseSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 39179E3A1B13F3500041B700 /* ExerciseSet.m */; };
+		39179E3E1B13F3960041B700 /* ExerciseSetRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 39179E3D1B13F3960041B700 /* ExerciseSetRep.m */; };
+		39179E411B13F44C0041B700 /* ExerciseLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 39179E401B13F44C0041B700 /* ExerciseLog.m */; };
+		392AC67D1B16B89A006BD8FF /* ExerciseType.m in Sources */ = {isa = PBXBuildFile; fileRef = 392AC67C1B16B89A006BD8FF /* ExerciseType.m */; };
+		392AC6801B16B9A0006BD8FF /* Muscle.m in Sources */ = {isa = PBXBuildFile; fileRef = 392AC67F1B16B9A0006BD8FF /* Muscle.m */; };
+		3954260A1B13F932005EF10B /* WrkoutLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 395426091B13F932005EF10B /* WrkoutLog.m */; };
+		3954260D1B1424EF005EF10B /* ExerciseOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 3954260C1B1424EF005EF10B /* ExerciseOption.m */; };
+		396C0E761B13EBCE004B97E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C0E751B13EBCE004B97E6 /* main.m */; };
+		396C0E791B13EBCE004B97E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C0E781B13EBCE004B97E6 /* AppDelegate.m */; };
+		396C0E7C1B13EBCE004B97E6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C0E7B1B13EBCE004B97E6 /* FirstViewController.m */; };
+		396C0E7F1B13EBCE004B97E6 /* NewWrkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C0E7E1B13EBCE004B97E6 /* NewWrkoutViewController.m */; };
+		396C0E821B13EBCE004B97E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396C0E801B13EBCE004B97E6 /* Main.storyboard */; };
+		396C0E841B13EBCE004B97E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396C0E831B13EBCE004B97E6 /* Images.xcassets */; };
+		396C0E871B13EBCE004B97E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396C0E851B13EBCE004B97E6 /* LaunchScreen.xib */; };
+		396C0E931B13EBCE004B97E6 /* wrkoutclubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C0E921B13EBCE004B97E6 /* wrkoutclubTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		396C0E8D1B13EBCE004B97E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396C0E681B13EBCE004B97E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396C0E6F1B13EBCE004B97E6;
+			remoteInfo = wrkoutclub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27AA4558C2A87F38601F8B28 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		39179E331B13F2CF0041B700 /* ExerciseBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseBase.h; path = Models/ExerciseBase.h; sourceTree = "<group>"; };
+		39179E341B13F2CF0041B700 /* ExerciseBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseBase.m; path = Models/ExerciseBase.m; sourceTree = "<group>"; };
+		39179E361B13F2E60041B700 /* Wrkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wrkout.h; path = Models/Wrkout.h; sourceTree = "<group>"; };
+		39179E371B13F2E60041B700 /* Wrkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Wrkout.m; path = Models/Wrkout.m; sourceTree = "<group>"; };
+		39179E391B13F3500041B700 /* ExerciseSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseSet.h; path = Models/ExerciseSet.h; sourceTree = "<group>"; };
+		39179E3A1B13F3500041B700 /* ExerciseSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseSet.m; path = Models/ExerciseSet.m; sourceTree = "<group>"; };
+		39179E3C1B13F3960041B700 /* ExerciseSetRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseSetRep.h; path = Models/ExerciseSetRep.h; sourceTree = "<group>"; };
+		39179E3D1B13F3960041B700 /* ExerciseSetRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseSetRep.m; path = Models/ExerciseSetRep.m; sourceTree = "<group>"; };
+		39179E3F1B13F44C0041B700 /* ExerciseLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseLog.h; sourceTree = "<group>"; };
+		39179E401B13F44C0041B700 /* ExerciseLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseLog.m; sourceTree = "<group>"; };
+		392AC67B1B16B89A006BD8FF /* ExerciseType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseType.h; path = Models/ExerciseType.h; sourceTree = "<group>"; };
+		392AC67C1B16B89A006BD8FF /* ExerciseType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseType.m; path = Models/ExerciseType.m; sourceTree = "<group>"; };
+		392AC67E1B16B9A0006BD8FF /* Muscle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Muscle.h; path = Models/Muscle.h; sourceTree = "<group>"; };
+		392AC67F1B16B9A0006BD8FF /* Muscle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Muscle.m; path = Models/Muscle.m; sourceTree = "<group>"; };
+		395426081B13F932005EF10B /* WrkoutLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrkoutLog.h; sourceTree = "<group>"; };
+		395426091B13F932005EF10B /* WrkoutLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrkoutLog.m; sourceTree = "<group>"; };
+		3954260B1B1424EF005EF10B /* ExerciseOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseOption.h; path = Models/ExerciseOption.h; sourceTree = "<group>"; };
+		3954260C1B1424EF005EF10B /* ExerciseOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseOption.m; path = Models/ExerciseOption.m; sourceTree = "<group>"; };
+		396C0E701B13EBCE004B97E6 /* wrkoutclub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wrkoutclub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396C0E741B13EBCE004B97E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396C0E751B13EBCE004B97E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		396C0E771B13EBCE004B97E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		396C0E781B13EBCE004B97E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		396C0E7A1B13EBCE004B97E6 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		396C0E7B1B13EBCE004B97E6 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		396C0E7D1B13EBCE004B97E6 /* NewWrkoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewWrkoutViewController.h; sourceTree = "<group>"; };
+		396C0E7E1B13EBCE004B97E6 /* NewWrkoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewWrkoutViewController.m; sourceTree = "<group>"; };
+		396C0E811B13EBCE004B97E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		396C0E831B13EBCE004B97E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		396C0E861B13EBCE004B97E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		396C0E8C1B13EBCE004B97E6 /* wrkoutclubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wrkoutclubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396C0E911B13EBCE004B97E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396C0E921B13EBCE004B97E6 /* wrkoutclubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wrkoutclubTests.m; sourceTree = "<group>"; };
+		63F79CAAE28DE1A1AF19778F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		873546FEFFE0D172667376B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396C0E6D1B13EBCE004B97E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D9D3784D5DD05A000CD5DB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396C0E891B13EBCE004B97E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E20715721586B5DA4A9EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27AA4558C2A87F38601F8B28 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39179E321B13F2B60041B700 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				392AC6811B16C02A006BD8FF /* ServerData */,
+				392AC6821B16C06B006BD8FF /* UserData */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		392AC6811B16C02A006BD8FF /* ServerData */ = {
+			isa = PBXGroup;
+			children = (
+				39179E331B13F2CF0041B700 /* ExerciseBase.h */,
+				39179E341B13F2CF0041B700 /* ExerciseBase.m */,
+				3954260B1B1424EF005EF10B /* ExerciseOption.h */,
+				3954260C1B1424EF005EF10B /* ExerciseOption.m */,
+				392AC67B1B16B89A006BD8FF /* ExerciseType.h */,
+				392AC67C1B16B89A006BD8FF /* ExerciseType.m */,
+				392AC67E1B16B9A0006BD8FF /* Muscle.h */,
+				392AC67F1B16B9A0006BD8FF /* Muscle.m */,
+				39179E361B13F2E60041B700 /* Wrkout.h */,
+				39179E371B13F2E60041B700 /* Wrkout.m */,
+			);
+			name = ServerData;
+			sourceTree = "<group>";
+		};
+		392AC6821B16C06B006BD8FF /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+				39179E3F1B13F44C0041B700 /* ExerciseLog.h */,
+				39179E401B13F44C0041B700 /* ExerciseLog.m */,
+				39179E391B13F3500041B700 /* ExerciseSet.h */,
+				39179E3A1B13F3500041B700 /* ExerciseSet.m */,
+				39179E3C1B13F3960041B700 /* ExerciseSetRep.h */,
+				39179E3D1B13F3960041B700 /* ExerciseSetRep.m */,
+				395426081B13F932005EF10B /* WrkoutLog.h */,
+				395426091B13F932005EF10B /* WrkoutLog.m */,
+			);
+			name = UserData;
+			sourceTree = "<group>";
+		};
+		396C0E671B13EBCE004B97E6 = {
+			isa = PBXGroup;
+			children = (
+				396C0E721B13EBCE004B97E6 /* wrkoutclub */,
+				396C0E8F1B13EBCE004B97E6 /* wrkoutclubTests */,
+				396C0E711B13EBCE004B97E6 /* Products */,
+				8067DBF9F25F5EF773BD0136 /* Pods */,
+				20E20715721586B5DA4A9EAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		396C0E711B13EBCE004B97E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396C0E701B13EBCE004B97E6 /* wrkoutclub.app */,
+				396C0E8C1B13EBCE004B97E6 /* wrkoutclubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396C0E721B13EBCE004B97E6 /* wrkoutclub */ = {
+			isa = PBXGroup;
+			children = (
+				39179E321B13F2B60041B700 /* Models */,
+				396C0E771B13EBCE004B97E6 /* AppDelegate.h */,
+				396C0E781B13EBCE004B97E6 /* AppDelegate.m */,
+				396C0E7A1B13EBCE004B97E6 /* FirstViewController.h */,
+				396C0E7B1B13EBCE004B97E6 /* FirstViewController.m */,
+				396C0E7D1B13EBCE004B97E6 /* NewWrkoutViewController.h */,
+				396C0E7E1B13EBCE004B97E6 /* NewWrkoutViewController.m */,
+				396C0E801B13EBCE004B97E6 /* Main.storyboard */,
+				396C0E831B13EBCE004B97E6 /* Images.xcassets */,
+				396C0E851B13EBCE004B97E6 /* LaunchScreen.xib */,
+				396C0E731B13EBCE004B97E6 /* Supporting Files */,
+			);
+			path = wrkoutclub;
+			sourceTree = "<group>";
+		};
+		396C0E731B13EBCE004B97E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396C0E741B13EBCE004B97E6 /* Info.plist */,
+				396C0E751B13EBCE004B97E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		396C0E8F1B13EBCE004B97E6 /* wrkoutclubTests */ = {
+			isa = PBXGroup;
+			children = (
+				396C0E921B13EBCE004B97E6 /* wrkoutclubTests.m */,
+				396C0E901B13EBCE004B97E6 /* Supporting Files */,
+			);
+			path = wrkoutclubTests;
+			sourceTree = "<group>";
+		};
+		396C0E901B13EBCE004B97E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396C0E911B13EBCE004B97E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8067DBF9F25F5EF773BD0136 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				873546FEFFE0D172667376B3 /* Pods.debug.xcconfig */,
+				63F79CAAE28DE1A1AF19778F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396C0E6F1B13EBCE004B97E6 /* wrkoutclub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396C0E961B13EBCE004B97E6 /* Build configuration list for PBXNativeTarget "wrkoutclub" */;
+			buildPhases = (
+				E6917B692B6544548B800816 /* Check Pods Manifest.lock */,
+				396C0E6C1B13EBCE004B97E6 /* Sources */,
+				396C0E6D1B13EBCE004B97E6 /* Frameworks */,
+				396C0E6E1B13EBCE004B97E6 /* Resources */,
+				8A0AADAC64EF9752F4A3CB9A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wrkoutclub;
+			productName = wrkoutclub;
+			productReference = 396C0E701B13EBCE004B97E6 /* wrkoutclub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		396C0E8B1B13EBCE004B97E6 /* wrkoutclubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396C0E991B13EBCE004B97E6 /* Build configuration list for PBXNativeTarget "wrkoutclubTests" */;
+			buildPhases = (
+				396C0E881B13EBCE004B97E6 /* Sources */,
+				396C0E891B13EBCE004B97E6 /* Frameworks */,
+				396C0E8A1B13EBCE004B97E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396C0E8E1B13EBCE004B97E6 /* PBXTargetDependency */,
+			);
+			name = wrkoutclubTests;
+			productName = wrkoutclubTests;
+			productReference = 396C0E8C1B13EBCE004B97E6 /* wrkoutclubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396C0E681B13EBCE004B97E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Phubar;
+				TargetAttributes = {
+					396C0E6F1B13EBCE004B97E6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					396C0E8B1B13EBCE004B97E6 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 396C0E6F1B13EBCE004B97E6;
+					};
+				};
+			};
+			buildConfigurationList = 396C0E6B1B13EBCE004B97E6 /* Build configuration list for PBXProject "wrkoutclub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 396C0E671B13EBCE004B97E6;
+			productRefGroup = 396C0E711B13EBCE004B97E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396C0E6F1B13EBCE004B97E6 /* wrkoutclub */,
+				396C0E8B1B13EBCE004B97E6 /* wrkoutclubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396C0E6E1B13EBCE004B97E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396C0E821B13EBCE004B97E6 /* Main.storyboard in Resources */,
+				396C0E871B13EBCE004B97E6 /* LaunchScreen.xib in Resources */,
+				396C0E841B13EBCE004B97E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396C0E8A1B13EBCE004B97E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A0AADAC64EF9752F4A3CB9A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6917B692B6544548B800816 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396C0E6C1B13EBCE004B97E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396C0E7F1B13EBCE004B97E6 /* NewWrkoutViewController.m in Sources */,
+				39179E351B13F2CF0041B700 /* ExerciseBase.m in Sources */,
+				396C0E791B13EBCE004B97E6 /* AppDelegate.m in Sources */,
+				392AC67D1B16B89A006BD8FF /* ExerciseType.m in Sources */,
+				39179E381B13F2E60041B700 /* Wrkout.m in Sources */,
+				3954260A1B13F932005EF10B /* WrkoutLog.m in Sources */,
+				396C0E7C1B13EBCE004B97E6 /* FirstViewController.m in Sources */,
+				396C0E761B13EBCE004B97E6 /* main.m in Sources */,
+				39179E411B13F44C0041B700 /* ExerciseLog.m in Sources */,
+				39179E3B1B13F3500041B700 /* ExerciseSet.m in Sources */,
+				39179E3E1B13F3960041B700 /* ExerciseSetRep.m in Sources */,
+				3954260D1B1424EF005EF10B /* ExerciseOption.m in Sources */,
+				392AC6801B16B9A0006BD8FF /* Muscle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396C0E881B13EBCE004B97E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396C0E931B13EBCE004B97E6 /* wrkoutclubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396C0E8E1B13EBCE004B97E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396C0E6F1B13EBCE004B97E6 /* wrkoutclub */;
+			targetProxy = 396C0E8D1B13EBCE004B97E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		396C0E801B13EBCE004B97E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396C0E811B13EBCE004B97E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		396C0E851B13EBCE004B97E6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396C0E861B13EBCE004B97E6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396C0E941B13EBCE004B97E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		396C0E951B13EBCE004B97E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396C0E971B13EBCE004B97E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873546FEFFE0D172667376B3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wrkoutclub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		396C0E981B13EBCE004B97E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F79CAAE28DE1A1AF19778F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wrkoutclub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		396C0E9A1B13EBCE004B97E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wrkoutclubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wrkoutclub.app/wrkoutclub";
+			};
+			name = Debug;
+		};
+		396C0E9B1B13EBCE004B97E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wrkoutclubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wrkoutclub.app/wrkoutclub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396C0E6B1B13EBCE004B97E6 /* Build configuration list for PBXProject "wrkoutclub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396C0E941B13EBCE004B97E6 /* Debug */,
+				396C0E951B13EBCE004B97E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396C0E961B13EBCE004B97E6 /* Build configuration list for PBXNativeTarget "wrkoutclub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396C0E971B13EBCE004B97E6 /* Debug */,
+				396C0E981B13EBCE004B97E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396C0E991B13EBCE004B97E6 /* Build configuration list for PBXNativeTarget "wrkoutclubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396C0E9A1B13EBCE004B97E6 /* Debug */,
+				396C0E9B1B13EBCE004B97E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 396C0E681B13EBCE004B97E6 /* Project object */;
+}
